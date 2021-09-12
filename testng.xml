@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.hybridFrameWork.utility.ExtentReporterNG"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.hybridFrameWork.runner.TitlePrint"/>
+      <class name="com.hybridFrameWork.runner.Links"/>
+      <class name="com.hybridFrameWork.runner.PageOpen"/>
+      <class name="com.hybridFrameWork.runner.ImageLink"/>
+      <class name="com.hybridFrameWork.runner.ProductPrice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
